@@ -25,6 +25,9 @@ public class JpaRunner implements ApplicationRunner {
 
         p.addComment(c);
 
+
+
+
         postRepository.save(p);
 
 
