@@ -20,10 +20,13 @@ public class JpaRunner implements ApplicationRunner {
         Post p = new Post();
         p.setTitle("test");
 
+
+
         Comment c = new Comment();
         c.setComment("테스트1");
 
         p.addComment(c);
+
 
 
 
